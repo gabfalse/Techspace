@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+/* === 🌌 TECH SPACE DARK THEME === */
+
+/* Background utama — nuansa cosmic futuristik */
+.bg-cosmic {
+  background: radial-gradient(circle at 25% 20%, #0b1120, #0f172a, #1a1f35);
+  color: #e2e8f0; /* warna teks default */
+}
+
+/* Teks umum dan lembut */
+.text-base {
+  @apply text-slate-300;
+}
+
+/* Teks deskripsi atau subtitle */
+.text-muted {
+  @apply text-slate-500;
+}
+
+/* Tombol futuristik lembut */
+.btn-soft {
+  @apply px-4 py-2 rounded-xl font-medium bg-slate-800 text-slate-100 shadow-md 
+         hover:bg-slate-700 hover:shadow-lg transition duration-200;
+}
+
+/* Warna aksen interaktif */
+.accent {
+  @apply text-indigo-400 hover:text-indigo-300 transition;
+}
+
+/* Layout umum tiap section */
+.section {
+  @apply px-6 py-12 md:px-12 lg:px-20 bg-transparent;
+}
+
+/* Card ringan dan blur */
+.card {
+  @apply bg-slate-900/60 backdrop-blur-md border border-slate-700/40 
+         rounded-2xl p-6 shadow-sm transition hover:border-slate-600/50;
+}
+
+/* Divider opsional antar section */
+.divider {
+  @apply my-8 border-t border-slate-700/50;
+}
