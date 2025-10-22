@@ -1,46 +1,53 @@
 @import "tailwindcss";
 
-/* === 🌌 TECH SPACE DARK THEME === */
+/* ===  GLOBAL THEME === */
 
-/* Background utama — nuansa cosmic futuristik */
-.bg-cosmic {
-  background: radial-gradient(circle at 25% 20%, #0b1120, #0f172a, #1a1f35);
-  color: #e2e8f0; /* warna teks default */
+/* ========== WARNA LATAR UTAMA ========== */
+
+.bg-main {
+  background: #0f172a;
+  color: #fff;
 }
 
-/* Teks umum dan lembut */
-.text-base {
+/* ========== TEKS ========== */
+/* Teks utama dipake buat judul / isi penting */
+.text-main {
   @apply text-slate-300;
 }
 
-/* Teks deskripsi atau subtitle */
-.text-muted {
+/* Teks tambahan dipake buat deskripsi / subtitle */
+.text-sub {
   @apply text-slate-500;
 }
 
-/* Tombol futuristik lembut */
-.btn-soft {
+/* ========== TOMBOL ========== */
+/* Tombol standar soft */
+.btn {
   @apply px-4 py-2 rounded-xl font-medium bg-slate-800 text-slate-100 shadow-md 
          hover:bg-slate-700 hover:shadow-lg transition duration-200;
 }
 
-/* Warna aksen interaktif */
-.accent {
+/* ========== WARNA AKSEN ========== */
+/* dipake buat link, ikon, atau teks interaktif */
+.text-accent {
   @apply text-indigo-400 hover:text-indigo-300 transition;
 }
 
-/* Layout umum tiap section */
-.section {
+/* ========== BAGIAN (SECTION) ========== */
+/* Jarak bagian halaman biar konten ga rapet */
+.section-box {
   @apply px-6 py-12 md:px-12 lg:px-20 bg-transparent;
 }
 
-/* Card ringan dan blur */
-.card {
+/* ========== KARTU (CARD) ========== */
+/* Kotak konten bergaya futuristik */
+.card-box {
   @apply bg-slate-900/60 backdrop-blur-md border border-slate-700/40 
          rounded-2xl p-6 shadow-sm transition hover:border-slate-600/50;
 }
 
-/* Divider opsional antar section */
-.divider {
-  @apply my-8 border-t border-slate-700/50;
+/* ========== PEMBATAS (DIVIDER) ========== */
+/* Garis pemisah antar bagian halaman */
+.line-divider {
+  @apply my-3 border-t border-slate-700/50;
 }

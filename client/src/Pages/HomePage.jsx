@@ -1,16 +1,13 @@
-import { Button, Box, Typography } from "@mui/material";
-
 export default function HomePage() {
   return (
-    <Box className="bg-cosmic min-h-screen flex flex-col items-center justify-center text-center">
-      <Typography variant="h3" fontWeight="bold" gutterBottom>
-        Welcome to Techspace Indonesia🪐
-      </Typography>
-      <Typography className="text-muted mb-6"></Typography>
+    <div className="min-h-screen flex flex-col items-center justify-center text-center">
+      <h1 className="text-main text-5xl mb-6">
+        Welcome to Techspace Community!
+      </h1>
 
-      <Button variant="contained" color="primary">
-        Join Now
-      </Button>
-    </Box>
+      <div className="line-divider w-1/2"></div>
+
+      <button className="btn mt-6">Mulai</button>
+    </div>
   );
 }
