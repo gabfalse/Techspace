@@ -4,28 +4,28 @@ Project ini adalah **web komunitas berbasis React (frontend) & Flask (backend)**
 Fokus untuk membangun platform komunitas dengan fitur: showcase profile, latihan coding, dan pembelajaran web development.
 
 ## 🗂 Struktur Folder
-Techspace/
-├── server/ # Flask backend
-│ ├── app/
-│ │ ├── __pycache__/
-│ │ ├── __init__.py
-│ │ └── routes.py
-│ ├── venv/
-│ ├── requirements.txt
-│ ├── config.py
-│ ├── run.py
-│ └── .env
-└── client/ # React + Tailwind frontend
-├── package.json
-├── vite.config.js
-├── src/
-│ ├── Components/
-│ ├── Pages/
-│ │ └── Homepage.jsx
-│ ├── App.jsx
-│ ├── index.css
-│ ├── main.jsx
-└── index.html
+Techspace/ <br/>
+├── server/ # Flask backend <br/>
+│ ├── app/ <br/>
+│ │ ├── __pycache__/ <br/>
+│ │ ├── __init__.py <br/>
+│ │ └── routes.py <br/>
+│ ├── venv/ <br/>
+│ ├── requirements.txt <br/>
+│ ├── config.py <br/>
+│ ├── run.py <br/>
+│ └── .env <br/>
+└── client/ # React + Tailwind frontend <br/>
+├── package.json <br/>
+├── vite.config.js <br/>
+├── src/ <br/>
+│ ├── Components/ <br/>
+│ ├── Pages/ <br/>
+│ │ └── Homepage.jsx <br/>
+│ ├── App.jsx <br/>
+│ ├── index.css <br/>
+│ ├── main.jsx <br/>
+└── index.html <br/>
 
 
 ---
