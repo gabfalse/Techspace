@@ -23,7 +23,7 @@ pip install -r backend/requirements.txt <br/>
 
 4. Jalankan backend: <br/>
 cd server <br/>
-py run.py <br/>
+py app.py <br/>
 
 ### 2. Frontend (React + Vite + Tailwind) <br/>
 1. Masuk folder frontend: <br/>
@@ -46,7 +46,7 @@ Blinker, Jinja2, Werkzeug, MarkupSafe, Click, Colorama, Itsdangerous <br/>
 # Frontend (React + Tailwind + MUI) <br/>
 react, react-dom <br/>
 tailwindcss, @tailwindcss/vite <br/>
-@mui/material, @emotion/react, @emotion/styled <br/>
+@emotion/react, @emotion/styled <br/>
 Vite, ESLint, plugin-react <br/>
 
 
